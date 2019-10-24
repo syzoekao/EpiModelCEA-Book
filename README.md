@@ -1,0 +1,30 @@
+This github repository is to summarize the modeling details in the WHAMP project. The primary components include the objective, the description of the drug assistance programs (ADAP and PrEP-DAP), the data or parameters, additional modeling components in EpiModelHIV framework, the scenarios, the calibration process, and the results. 
+
+# Table of contents
+* [Objective](objective.md)
+* [Drug assistance programs](DAP.md)
+* [Data](data.md)
+    - [Claims data](data_claims.md)
+        + [ADAP clients](data_claims.md#dat_adap)
+        + [PrEP-DAP clients](data_claims.md#dat_pdap)
+    - [Demographic data](data_demographics.md)
+    - [Care cascade](data_cascade.md)
+        + [HIV positive](data_cascade.md)
+        + [HIV negative](data_cascade.md)
+    - [Unknown parameters](data_unknown.md)
+* [Model components](mod_summary.md)
+    - [Individual attributes/demographics](mod_demographics.md)
+    - [HIV-positive](mod_hivpositive.md)
+        + [ADAP and care continuum](mod_hivpositive.md#ADAPandContinuum)
+        + [ART & ADAP dynamics](mod_hivpositive.md#ARTdynamics)
+        + [Cost](mod_hivpositive.md#ADAPcost)
+    - [HIV-negative](mod_hivnegative.md)
+        + [PrEP-DAP and care continuum](mod_hivnegative.md#PDAPandContinuum)
+        + [PrEP & PrEP-DAP dynamics](mod_hivnegative.md#PrEPdynamics)
+        + [Costs](mod_hivnegative.md#PDAPcost)
+    - [Outcome module](mod_outcome.md)
+* [Calibration](calibration.md)
+* [Scenarios](scenarios.md)
+* [Results](results.md)
+
+
